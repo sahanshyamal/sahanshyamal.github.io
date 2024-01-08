@@ -1,0 +1,27 @@
+#main-window {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-auto-rows: minmax(100px, 100px);
+    gap: 5px;
+
+}
+
+.grid-item {
+    border: 1px solid brown;
+    background-color: antiquewhite;
+    font-size: xx-large;
+    text-align: center;
+    color:rgb(0, 0, 0);
+}
+
+.grid-item {
+    text-align: center;
+    padding: 40%;
+}
